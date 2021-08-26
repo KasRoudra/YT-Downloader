@@ -153,7 +153,7 @@ if confirm=="y" && type== "1"
     print "\n"+ask+"Move to a custom path?(y/n) > "+green
     pt=gets.chomp
     if pt=="y"
-        print "\n"+ask+"Enter path? > "+green
+        print "\n"+ask+"Enter path > "+green
         path=gets.chomp
         if Dir.exist?(path)
             system("mv -f '#{title}.mp3' #{path}")

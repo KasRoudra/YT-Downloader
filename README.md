@@ -34,7 +34,7 @@ cd YT-Downloader
 ruby yd.rb
 ```
 
-### On linux try `sudo ruby yd.rb` on first run
+### On linux, try `sudo ruby yd.rb` on first run
 
 ### Or, Use Single Command
 
